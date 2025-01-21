@@ -1,0 +1,138 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon Portfolio !{% endblock %}
+
+{% block body %}
+<body data-aos-easing="ease-out-quad" data-aos-duration="700" data-aos-delay="0">
+                        <!-- WELCOME -->
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-10 col-lg-8 text-center">
+
+				<!-- Heading -->
+				<h1 class="display-2 text-black">
+					<u>Mon Portfolio :</u>
+				</h1>
+
+			</div>
+		</div>
+<style>
+
+.container {
+  width: 100%;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 254, 254);
+}
+
+.html {width: 100%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.python {width: 70%; background-color: #04AA6D;}
+.c {width: 90%; background-color: #808080;}
+.admin {width: 75%; background-color: #e64d19;}
+.reseau {width: 60%; background-color: #04AA6D;}
+.projet {width: 90%; background-color: #000000;}
+.anglais {width: 80%; background-color: #020302;}
+
+</style>
+<body>
+
+<h1>Mes compétences :</h1>
+
+<p>Maîtriser les lois fondamentales de l’électricité afin d’intervenir sur des équipements de réseaux et télécommunications
+</p>
+<div class="container">
+  <div class="skills css">75%</div>
+</div>
+
+
+<p> Comprendre les principes et standards du codage de l’information
+</p>
+<div class="container">
+  <div class="skills html">85%</div>
+</div>
+
+
+
+<p>Configurer les fonctions de base du réseau local
+</p>
+<div class="container">
+  <div class="skills python">50%</div>
+</div>
+
+<p>Maîtriser les rôles et les principes fondamentaux des systèmes d’exploitation afin d’interagir avec ceux-ci pour la configuration et
+	administration des réseaux et services fournis </p>
+<div class="container">
+  <div class="skills c">60%</div>
+</div>
+
+<p>Savoir identifier les dysfonctionnements du réseau local
+</p>
+<div class="container">
+  <div class="skills admin">70%</div>
+</div>
+
+<p>Installer un poste client
+</p>
+<div class="container">
+  <div class="skills reseau">50%</div>
+</div>
+
+<p> Mesurer et analyser les signaux</p>
+<div class="container">
+  <div class="skills projet">75%</div>
+</div>
+
+
+<p>Déployer des supports de transmission</p>
+<div class="container">
+  <div class="skills anglais">100%</div>
+</div>
+<p> </p>
+<p> </p>
+<div class="container">
+</div>
+<p> </p>
+
+
+
+  <!-- Meta -->
+						<a class="card-meta" href="">
+
+							<!-- Divider -->
+						</a>
+
+</body>
+<a class="card-meta" href="/actualites/lancement-du-site-internet">
+
+							<!-- Divider -->
+							<hr class="card-meta-divider">
+
+						</a>
+
+					</div>
+
+				</div>
+					</div>
+		<!-- / .row -->
+        
+	</div>
+	<!-- / .container -->
+</section>
+        <!-- SHAPE -->
+<div class="position-relative">
+	<div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+		<svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+	</div>
+</div>
+
+</body>
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('home') }}
+{% endblock %}

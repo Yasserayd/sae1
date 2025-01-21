@@ -1,0 +1,121 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon CV !{% endblock %}
+
+{% block body %}
+<body data-aos-easing="ease-out-quad" data-aos-duration="700" data-aos-delay="0">
+            <!-- WELCOME -->
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-10 col-lg-8 text-center">
+
+				
+				<h1 class="display-2 text-black">
+					<u>Mon CV :</u>
+				</h1>
+
+			</div>
+		</div>
+
+	</div>
+
+		
+		<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-10 col-lg-8 text-center">
+
+</div>
+    <section>
+	<h4><h4>
+	<div class="contener"> 
+	    <div class="contener"> 
+ 
+        <strong><h3>Competences<h3></strong>
+        
+        <p>
+		- Création de site Web<br> 
+		- Programmations en C, Python<br> 
+		- Création , Géstion d'un réseau<br> 
+		- Polyglotte : Exellente maitrise du Français , Anglais , Arabe , Espagnol<br> 
+		- Accueils des clients.<br> 
+		- Travaille en équipe.<br> 
+		</p>
+ 
+    </div>
+
+	<div class="contener">
+
+        <h3>Experience professionnel </h3>
+        <p>- Professeur particulier pour collégiens en Mathematique<br></p>
+		
+    </div>
+
+        <div class="contener"> 
+            <h3> Formations <h3>
+
+            <p>2019-2020 : Brevet des collège mention Trés Bien<br> 
+            2022-2023 : Bac Générale au Maroc , spécialité mathématique / Mention Trés Bien<br> 
+			Actuellement : BUT Réseaux et Télécommunication, IUT de Roanne.</p>
+        </div>
+
+
+</div>
+    </section>
+<style> 
+.cas{
+width: 7px;
+margin: auto;
+font-family: 'calibri',sans-serif;
+font-size: 2px;
+border: 4px solid black;
+border-radius: 1px;
+padding:24px;
+}
+.contener{
+    text-align: center;
+}
+ 
+ h4 , h3 {
+    font-size: 25px;
+    border-bottom: 4px solid skyblue;
+ }
+body{
+background-repeat: no-repeat;
+background-size: 10vw 10vh;
+} 
+</style>
+	</div>
+	
+</section>
+<center>
+<h2>Accéder au CV</h2>
+
+<p>Cliquez sur le bouton ci-dessous pour acceder au CV :</p>
+<a href="/formulaire" class="btn btn-primary lift">
+			Acceder au CV
+</a>
+</center>
+
+						<a class="card-meta" href="/actualites/lancement-du-site-internet">
+
+							
+							<hr class="card-meta-divider">
+
+						</a>
+
+					</div>
+
+				</div>
+					</div>
+		
+<div class="position-relative">
+	<div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+		<svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+	</div>
+
+</body>
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('home') }}
+{% endblock %}  
